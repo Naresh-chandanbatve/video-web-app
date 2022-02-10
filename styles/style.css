@@ -1,0 +1,32 @@
+*{
+    font-family: sans-serif;
+}
+h1,h4{
+    text-align: center;
+}
+#me{
+    position: absolute;
+    width: 20%;
+    margin-top: 0%;
+    margin-left: 70%;
+    display: block;
+}
+#me video{
+    position: relative !important;
+}
+#remote-container{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fill);
+    grid-row-gap: 30px;
+}
+#remote-container video{
+    position: relative !important;
+}
+
+.remote_video {
+    height: 300px;
+    width: 300px;
+
+}
